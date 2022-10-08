@@ -1,2 +1,2 @@
 # PLHub
-project ligma hub
+Script Hub For Synapse X And Project Ligma.
